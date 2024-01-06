@@ -2,7 +2,7 @@ import { cssBundleHref } from '@remix-run/css-bundle'
 import type { LinksFunction } from '@remix-run/node'
 import { Links, LiveReload, Meta, Outlet, Scripts, ScrollRestoration } from '@remix-run/react'
 
-import stylesheet from '~/tailwind.css'
+import stylesheet from './styles/tailwind.css'
 import Footer from './components/Footer'
 
 export const links: LinksFunction = () => [
@@ -16,7 +16,7 @@ export const links: LinksFunction = () => [
   },
   {
     rel: 'stylesheet',
-    href: 'https://fonts.googleapis.com/css2?family=Open+Sans&family=Poppins:wght@400;600&display=swap',
+    href: 'https://fonts.googleapis.com/css2?family=Open+Sans&family=Kumbh+Sans:wght@400;700&display=swap',
   },
 ]
 
@@ -29,7 +29,7 @@ export default function App() {
         <Meta />
         <Links />
       </head>
-      <body className="flex min-h-screen flex-col items-center justify-center font-open-sans">
+      <body className="font-kumbh-sans flex min-h-screen flex-col items-center justify-center">
         <Outlet />
         <Footer className="m-4 mt-auto" />
         <ScrollRestoration />

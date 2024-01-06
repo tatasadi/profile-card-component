@@ -18,7 +18,7 @@ export default function Footer({ className = '' }: { className: string }) {
       <br />
       <a
         className="footer-link"
-        href="https://github.com/tatasadi/huddle-landing-page"
+        href="https://github.com/tatasadi/profile-card-component"
         target="_blank"
         rel="noreferrer"
       >

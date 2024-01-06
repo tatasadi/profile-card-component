@@ -1,7 +1,7 @@
 import type { MetaFunction } from '@remix-run/node'
 
 export const meta: MetaFunction = () => {
-  return [{ title: 'Huddle Landing Page' }, { name: 'description', content: 'A Challenge from Frontend Mentor!' }]
+  return [{ title: 'Profile Card Component' }, { name: 'description', content: 'A Challenge from Frontend Mentor!' }]
 }
 
 export default function Index() {
