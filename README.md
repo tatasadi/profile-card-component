@@ -50,9 +50,9 @@ Applying multiple background in tailwind like this and make them responsive:
 ```css
 bg-[url('/images/bg-pattern-top.svg'),_url('/images/bg-pattern-bottom.svg')]
 bg-contain
-bg-[position:_right_53vw_bottom_75vh,_left_51vw_top_50vh]
+bg-[position:_right_50vw_bottom_70vh,_left_50vw_top_50vh]
 bg-no-repeat
-lg:bg-[position:_right_49vw_bottom_70vh,_left_51vw_top_50vh]
+lg:bg-[position:_right_50vw_bottom_60vh,_left_40vw_top_50vh]
 ```
 
 ## Author
