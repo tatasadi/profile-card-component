@@ -24,13 +24,12 @@ Users should be able to:
 
 ### Screenshots
 
-![](./screenshot1.jpg)
-![](./screenshot2.jpg)
+![](./screenshot1.png)
 
 ### Links
 
-- Solution URL: [https://github.com/tatasadi/four-card-feature-section](https://github.com/tatasadi/four-card-feature-section)
-- Live Site URL: [https://four-card-feature-section-ta.vercel.app](https://four-card-feature-section-ta.vercel.app)
+- Solution URL: [https://github.com/tatasadi/profile-card-component](https://github.com/tatasadi/profile-card-component)
+- Live Site URL: [https://profile-card-component-ta.vercel.app](https://profile-card-component-ta.vercel.app)
 
 ## My process
 
@@ -38,7 +37,6 @@ Users should be able to:
 
 - Semantic HTML5 markup
 - Flexbox
-- CSS Grid
 - Mobile-first workflow
 - [React](https://reactjs.org/) - JS library
 - [Remix](https://remix.run/) - React framework
