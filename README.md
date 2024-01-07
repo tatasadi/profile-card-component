@@ -12,6 +12,7 @@ This is a solution to the [Profile card component challenge on Frontend Mentor](
     - [Links](#links)
   - [My process](#my-process)
     - [Built with](#built-with)
+    - [What I learned](#what-i-learned)
   - [Author](#author)
 
 ## Overview
@@ -41,6 +42,18 @@ Users should be able to:
 - [React](https://reactjs.org/) - JS library
 - [Remix](https://remix.run/) - React framework
 - [Tailwindcss](https://tailwindcss.com) - For styles
+
+### What I learned
+
+Applying multiple background in tailwind like this and make them responsive:
+
+```css
+bg-[url('/images/bg-pattern-top.svg'),_url('/images/bg-pattern-bottom.svg')]
+bg-contain
+bg-[position:_right_53vw_bottom_75vh,_left_51vw_top_50vh]
+bg-no-repeat
+lg:bg-[position:_right_49vw_bottom_70vh,_left_51vw_top_50vh]
+```
 
 ## Author
 

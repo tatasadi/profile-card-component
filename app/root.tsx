@@ -31,7 +31,8 @@ export default function App() {
         <Meta />
         <Links />
       </head>
-      <body className="font-kumbh-sans bg-dark-cyan flex h-screen flex-col items-center justify-center">
+
+      <body className="font-kumbh-sans bg-dark-cyan flex h-screen flex-col items-center justify-center bg-[url('/images/bg-pattern-top.svg'),_url('/images/bg-pattern-bottom.svg')] bg-contain bg-[position:_right_53vw_bottom_75vh,_left_51vw_top_50vh] bg-no-repeat lg:bg-[position:_right_49vw_bottom_70vh,_left_51vw_top_50vh]">
         <Outlet />
         <Footer className="m-4 mt-auto" />
         <ScrollRestoration />
