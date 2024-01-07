@@ -13,12 +13,12 @@ export default function Index() {
       <img
         src={bgPatternTop}
         alt=""
-        className="absolute left-[-50%] top-[-30%] w-[38.875] md:left-[-40%] md:top-[-70%] md:w-[61.125rem]"
+        className="absolute left-[-50%] top-[-10%] w-[38.875] md:left-[-40%] md:top-[-40%] md:w-[61.125rem]"
       />
       <img
         src={bgPatternBottom}
         alt=""
-        className="absolute bottom-[-30%] right-[-60%] w-[38.875rem] md:bottom-[-70%] md:right-[-40%] md:w-[61.125rem]"
+        className="absolute bottom-[-10%] right-[-60%] w-[38.875rem] md:bottom-[-40%] md:right-[-40%] md:w-[61.125rem]"
       />
       <Card className="relative z-10 my-auto flex w-80 flex-col rounded-[0.9375rem] bg-white shadow-[0_50px_100px_-20px_rgba(8,70,94,0.50)] lg:w-[21.875rem]" />
     </main>
