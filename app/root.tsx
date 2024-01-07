@@ -4,6 +4,7 @@ import { Links, LiveReload, Meta, Outlet, Scripts, ScrollRestoration } from '@re
 
 import stylesheet from './styles/tailwind.css'
 import Footer from './components/Footer'
+import faviconUrl from './assets/images/favicon-32x32.png'
 
 export const links: LinksFunction = () => [
   ...(cssBundleHref ? [{ rel: 'stylesheet', href: cssBundleHref }] : []),
@@ -18,6 +19,7 @@ export const links: LinksFunction = () => [
     rel: 'stylesheet',
     href: 'https://fonts.googleapis.com/css2?family=Open+Sans&family=Kumbh+Sans:wght@400;700&display=swap',
   },
+  { rel: 'icon', href: faviconUrl },
 ]
 
 export default function App() {
@@ -29,7 +31,7 @@ export default function App() {
         <Meta />
         <Links />
       </head>
-      <body className="font-kumbh-sans flex min-h-screen flex-col items-center justify-center">
+      <body className="font-kumbh-sans bg-dark-cyan flex h-screen flex-col items-center justify-center">
         <Outlet />
         <Footer className="m-4 mt-auto" />
         <ScrollRestoration />

@@ -1,6 +1,6 @@
 export default function Footer({ className = '' }: { className: string }) {
   return (
-    <footer className={`mt-16 text-center text-sm ${className}`}>
+    <footer className={`mt-16 text-center text-sm text-white ${className}`}>
       Challenge by{' '}
       <a href="https://www.frontendmentor.io" target="_blank" className="footer-link" rel="noreferrer">
         Frontend Mentor
